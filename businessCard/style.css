@@ -1,0 +1,128 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+    height:100%;
+  /*  background-image: url("https://i.redd.it/qq9rnxx4sg971.png");*/
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.card-container{
+    position:relative;
+    display:flex;
+    width:70%;
+    height:500px;
+    border-radius: 25px;
+    border:1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.contact-section{
+    position:relative;
+    width:25%;
+    overflow: hidden;
+    height:100%;
+    color:white;
+}
+
+.item{
+    position:relative;
+    width:100%;
+    margin-bottom:15px;
+    background-color:rgb(49, 108, 136);
+}
+
+.contact{
+    border-radius: 25px 0 0px 0px;
+    height:70%;
+
+}
+
+
+.social{
+    height:27%;
+    border-radius: 0px 0 0px 25px;
+}
+
+.email-phone{
+    position:absolute;
+    top:53%;
+    padding:10%;
+    font-size:18px;
+}
+
+.social-media{
+    position:absolute;
+    top:14%;
+    left:12%;
+    font-size:18px;
+}
+
+a{
+    display:inline-block;
+    text-decoration: none;
+    color:white;
+    margin:8px 10px 30px 0;
+    font-size:15px;
+}
+
+.fa {
+    transform:scale(1.1);
+    opacity:0.9;
+}
+
+.top-right-corner{
+    position:absolute;
+    top:0;
+    right:0;
+    width:80px;
+    height:80px;
+    border-radius:56% 44% 0% 100% / 0% 0% 100% 100%  ;
+    background-color:rgb(49, 108, 136);
+}
+
+
+
+#image{
+    left:23%;
+    width:25%;
+    height:400px;
+    float:left;
+    position:relative;
+    left:-2%;
+    top:10%;
+}
+
+.info-section{
+    width:75%;
+    height:100%;
+}
+
+.info{
+    position:relative;
+    width:100%;
+    height:100%;
+    padding:5%;
+    font-size:18px;
+}
+
+.red{
+    color:red;
+}
+
+ul{
+   position:absolute;
+   right:20%;
+}
